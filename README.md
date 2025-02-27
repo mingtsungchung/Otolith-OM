@@ -7,7 +7,7 @@ The study comprises three datasets: (1)  Baseline stable isotope values, (2) Iso
 
 ## Description of the data and file structure
 
-Baseline: The stable carbon and nitrogen isotope values of particulate organic matter (POM) were collected from inshore and offshore seawater. These samples represent the pelagic ecosystem and are compared to published data on benthic ecosystems.
+Baseline.csv: The stable carbon and nitrogen isotope values of particulate organic matter (POM) were collected from inshore and offshore seawater. These samples represent the pelagic ecosystem and are compared to published data on benthic ecosystems.
 
 | **Column name** | **Description**                                                                                                                                                                                                           | **Units** | **Data format** | **Missing data code**                                    |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------- | :-------------- | :------------------------------------------------------- |
@@ -26,7 +26,7 @@ Baseline: The stable carbon and nitrogen isotope values of particulate organic m
 | d13C.sd         | The standard deviation of stable carbon isotope value of particulate organic matter.                                                                                                                                      | ‰         | Number          | NA: A single estimation is without a standard deviation. |
 | Source          | The data was obtained by this study or Nazir et al. (2024). Nazir et al. "Anthropogenic nitrogen pollution inferred by stable isotope records of crustose coralline algae." Marine Pollution Bulletin 198 (2024): 115839. | -         | Category        | -                                                        |
 
-Isotope niche: Basic fish information—such as age, length, weight, and sampling locations—is provided. δ¹³C and δ¹⁵N values were measured in the otolith core, otolith edge, and muscle tissue to facilitate comparative analysis.
+Isotope niche.csv: Basic fish information—such as age, length, weight, and sampling locations—is provided. δ¹³C and δ¹⁵N values were measured in the otolith core, otolith edge, and muscle tissue to facilitate comparative analysis.
 
 | **Column name**   | **Description**                                                               | **Units** | **Data format** | **Missing data code**                              |
 | :---------------- | :---------------------------------------------------------------------------- | :-------- | :-------------- | :------------------------------------------------- |
@@ -43,7 +43,7 @@ Isotope niche: Basic fish information—such as age, length, weight, and samplin
 | Otolith.core.d13C | Stable carbon isotope value of the organic matter in the otolith core area.   | ‰         | Number          | NA: The sample amount was saturated.               |
 | Otolith.edge.d13C | Stable carbon isotope value of the organic matter in the otolith edge area.   | ‰         | Number          | NA: The sample amount was saturated.               |
 
-Otolith organic matter: Stable carbon (δ¹³C) and nitrogen (δ¹⁵N) isotope data were obtained from each layer of otolith dissolution in individual fish. These values were aligned with age estimates derived from growth ring counting and 3D scanning of otolith morphology during organic matter extraction. The dataset includes maximum, minimum, and median age estimates from both methods.
+Otolith organic matter.csv: Stable carbon (δ¹³C) and nitrogen (δ¹⁵N) isotope data were obtained from each layer of otolith dissolution in individual fish. These values were aligned with age estimates derived from growth ring counting and 3D scanning of otolith morphology during organic matter extraction. The dataset includes maximum, minimum, and median age estimates from both methods.
 
 | **Column name** | **Description**                                                                                                        | **Units** | **Data format** | **Missing data code**                              |
 | :-------------- | :--------------------------------------------------------------------------------------------------------------------- | :-------- | :-------------- | :------------------------------------------------- |
